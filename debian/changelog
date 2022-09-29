@@ -1,0 +1,50 @@
+fonts-cmu (0.7.0-5) unstable; urgency=medium
+
+  * Team upload.
+  * debian/control:
+    + Bump debhelper compat to v13.
+    + Bump Standards-Version to 4.6.0.
+    + Fix broken Vcs-* fields.
+  * debian/rules: Fix lintian warnings.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 18 Aug 2021 16:16:55 -0400
+
+fonts-cmu (0.7.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * debian/control:
+    + Bump debhelper compat to v12.
+    + Bump Standards-Version to 4.4.1.
+    + Update Vcs-* fields to use git packaging repo under Salsa
+      fonts-team group.
+    - Drop DMUA field.
+    - Drop Christian Perrier from the uploaders list. (Closes: #927649)
+  * debian/copyright: Fix lintian warnings.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 24 Nov 2019 16:42:43 -0500
+
+fonts-cmu (0.7.0-3) unstable; urgency=low
+
+  * Update Standards to 3.9.4 (checked)
+  * Bump debhelper compatibility to 9
+  * Add Multi-Arch: foreign field
+  * Use xz extreme compression for deb packages
+  * Use git for packaging: adapt Vcs-* fields
+  * Add myself to Uplaoders
+  * Fix copyright format URL
+  * Fix copyright file format (continuation lines)
+  * Drop Changes from docs as it is the same file then FontLog.txt
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 17 Aug 2013 19:41:49 +0200
+
+fonts-cmu (0.7.0-2) unstable; urgency=low
+
+  * Add more detailled copyright info
+
+ -- Olivier Sallou <olivier.sallou@irisa.fr>  Thu, 11 Aug 2011 09:12:58 +0200
+
+fonts-cmu (0.7.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #620537)
+
+ -- Olivier Sallou <olivier.sallou@irisa.fr>  Mon, 01 Aug 2011 09:12:58 +0200

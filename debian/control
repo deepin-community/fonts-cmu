@@ -1,0 +1,25 @@
+Source: fonts-cmu
+Section: fonts
+Priority: optional
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Olivier Sallou <olivier.sallou@irisa.fr>,
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+Homepage: https://sourceforge.net/projects/cm-unicode/
+Vcs-Git: https://salsa.debian.org/fonts-team/fonts-cmu.git
+Vcs-Browser: https://salsa.debian.org/fonts-team/fonts-cmu
+
+Package: fonts-cmu
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: sets the computer modern unicode fonts
+ Provides a set of Computer Modern Unicode fonts.
+ It provides OpenType files.
+ .
+ They are based on the METAFONT version of the Computer
+ fonts and contain many additional characters.
+ .
+ The fonts contain glyphs from Latin1, Cyrillic and Greek
+ code sets.
